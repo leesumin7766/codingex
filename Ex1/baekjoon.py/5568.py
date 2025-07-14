@@ -1,3 +1,5 @@
+from collections import Counter
+
 n = int(input())
 k = int(input())
 
@@ -7,4 +9,6 @@ for _ in range(n):
     
 answer = []
 for i in n_list :
-
+    answer.append(i)
+    
+print(Counter(answer))
